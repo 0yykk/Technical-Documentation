@@ -27,7 +27,7 @@
   <br>
 * 使用命令<font color=red>docker run -d --name mysql001 -p 2220:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql</font>
 来运行当前镜像生成容器，并且设置root密码为123456，容器命名为mysql001，端口将宿主机2230端口映射到mysql的3306端口
-<br>
+
 * 使用docker ps命令查看当前运行的容器
   ![](/asset/img/1590501554(1).png)
 ### 通过root密码访问MySQL服务
